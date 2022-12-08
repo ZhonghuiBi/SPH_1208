@@ -1,0 +1,27 @@
+Dimension = 3D
+
+Kernel Type = Qubic Spline
+
+Viscosity Equation = 0 => Morris et al 1997
+
+Computational domain size
+Bottom Left-Corner Front = -0.03875	-0.03875	-0.03875 m
+Top Right-Corner Rear    = 0.80125	0.62625	0.53875 m
+
+Max of the smoothing lengths, h = 0.015 m
+Cell factor in Linked List (based on kernels) = 2
+
+Cell Size in XYZ Directions = 0.030.03022730.0303947 m
+No of Cells in XYZ Directions = ( 28 , 22 , 19 )
+
+Initial No of Particles = 75346
+
+Initial Time Step = 0.000135457 S
+
+External Acceleration (Gravity enabled)= 000 m/s2
+
+No of Threads = 6
+
+Periodic Boundary Condition X dir= False
+Periodic Boundary Condition Y dir= False
+Periodic Boundary Condition Z dir= False
